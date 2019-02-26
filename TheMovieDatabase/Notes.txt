@@ -1,0 +1,38 @@
+Data columns (total 19 columns):
+id                      3000 non-null int64
+budget                  3000 non-null int64
+genres                  2993 non-null object
+original_language       3000 non-null object
+original_title          3000 non-null object
+overview                2992 non-null object
+popularity              3000 non-null float64
+production_companies    2844 non-null object
+production_countries    2945 non-null object
+release_date            3000 non-null object
+runtime                 2998 non-null float64
+spoken_languages        2980 non-null object
+status                  3000 non-null object
+tagline                 2403 non-null object
+title                   3000 non-null object
+Keywords                2724 non-null object
+cast                    2987 non-null object
+crew                    2984 non-null object
+revenue                 3000 non-null int64
+
+Before doing analysis let's just list of some points using our domain knowledge.
+
+Budget-Genre
+budget-Genre-original_language
+budget-cast
+budget-release day
+budget-release day-cast
+budget-release month
+budget-release year
+release year
+budget-release month-cast
+runtime-original_language
+genre-original_title
+genre-original_title-original_language
+cast-crew
+genre-cast-crew
+gap beween release of two same language films
